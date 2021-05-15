@@ -59,7 +59,7 @@ return false;
 		{token.IDENT, "ten"},
 		{token.RPAREN, ")"},
 		{token.SEMICOLON, ";"},
-		{token.EOF, ""},
+		// {token.EOF, ""},
 	}
 	l := New(input)
 	for i, tt := range tests {
